@@ -1,14 +1,14 @@
-Stages:
+stages:
   - Build
   - Test
 
-Test_Job:
-  Stages: Build
-  Script: 
+Build_Job:
+  stage: Build-stage
+  script: 
     - echo "This is my first pipeline created on my own , Thsi job is part of Build stage"
 
-Build_Job:
-  Stages: Test
-  Script:
+Test_Job:
+  stage: Test-stage
+  script:
     - echo "This in my second job in pipeline , which is part of Test stage"
     - echo "This in my second job in pipeline , which is part of Test stage Part 4"
