@@ -10,4 +10,5 @@ Test_Job:
 Build_Job:
   Stages: Test
   Script:
-    - echo "This in my second job in pipeline , which is part of Test stage "
+    - echo "This in my second job in pipeline , which is part of Test stage"
+    - echo "This in my second job in pipeline , which is part of Test stage Part 2  "
