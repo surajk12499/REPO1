@@ -3,12 +3,12 @@ stages:
   - test
 
 build_Job:
-  stage: build-stage
+  stage: build
   script: 
     - echo "This is my first pipeline created on my own , Thsi job is part of Build stage"
 
 test_Job:
-  stage: best-stage
+  stage: test
   script:
     - echo "This in my second job in pipeline , which is part of Test stage"
     - echo "This in my second job in pipeline , which is part of Test stage Part 4"
